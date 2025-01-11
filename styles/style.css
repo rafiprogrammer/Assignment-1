@@ -321,8 +321,9 @@ body{
   cursor: pointer;
 }
 .news-btn:hover {
-  transform: scale(1.1);
-  background-color: red;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+  background-color: #09A15C;
   color: white;
 }
 /* donate start  */
@@ -355,8 +356,6 @@ body{
   justify-content: space-around;
 }
 .donate-card {
-  /* width: 160px;
-  height: 48px; */
   padding: 40px;
   font-size: 40px;
   line-height: 48px;
@@ -369,8 +368,8 @@ body{
   cursor: pointer;
 }
 .donate-card:hover {
-  transform: scale(1.1);
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
   background-color: rgba(198, 228, 214, 1);
 }
 .input {
@@ -405,11 +404,9 @@ body{
 
 .Subscribe:hover {
   cursor: pointer;
-  transform: scale(1.1);
-  transition-duration: 1s;
-  transition-property: calc(1.1);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  background-color: red;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+  background-color: #09A15C;
   color: white;
 }
 .new-letter {
@@ -466,8 +463,9 @@ body{
   background-color: rgba(0, 106, 80, 1);
 }
 .sub2:hover {
-  transform: scale(1.1);
-  background-color: red;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+  background-color: #09A15C;
   color: white;
 }
 
@@ -503,11 +501,10 @@ footer {
   cursor: pointer;
 }
 .footer-head:hover {
-  color: red;
+  color: #09A15C;
 }
 hr {
   background-color: rgba(14, 14, 14, 0.1);
-  /* margin-bottom: 32px; */
   width: 1122px;
   height: 2px;
   border: none;
@@ -521,6 +518,7 @@ footer img {
   cursor: pointer;
 }
 footer img:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
 }
 
